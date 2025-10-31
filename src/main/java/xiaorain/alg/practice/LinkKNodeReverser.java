@@ -68,9 +68,9 @@ public class LinkKNodeReverser {
         // this part is important.
         // if remove， then means the left part need to reverse.
         // if exist, it means no need to reverse.
-        if (k != 0) {
-            return null;
-        }
+//        if (k != 0) {
+//            return null;
+//        }
         if (cur != null) {
             section.end = cur;
             section.sectionNext = cur.next;
